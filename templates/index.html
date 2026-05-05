@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa sobre Python e Hospedagem</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #1e1e2f;
+            color: white;
+        }
+
+        header {
+            background-color: #306998;
+            padding: 25px;
+            text-align: center;
+            color: #111;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: aliceblue;
+        }
+
+        .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        padding: 30px 0;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px; /* AQUI controla o espaço */
+    }
+
+        .card {
+            background: #2d2d44;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 6px solid #FFD43B;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .card2 {
+            background: #2d2d44;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 6px solid #306998;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            color: #FFD43B;
+        }
+
+        .sub2{
+            color: #79a9cf;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #306998;
+            margin-top: 30px;
+        }
+
+        p{
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+        .container {
+            grid-template-columns: 1fr;
+        }
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pesquisa sobre Python</h1>
+    <p>Hospedagem com HTML + Python no Render</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>O que é Python?</h2>
+        <p>
+            Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. Criada por Guido van Rossum, ela se destaca por ter uma sintaxe simples e fácil de entender, o que facilita muito o aprendizado. Além disso, o Python é multiplataforma, ou seja, funciona em diversos sistemas operacionais como Windows, Linux e macOS. É uma das linguagens mais populares do mundo atualmente.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Para que serve?</h2>
+        <p>
+          Python é uma linguagem muito versátil, sendo utilizada em diversas áreas da tecnologia. Ela pode ser usada para desenvolver sites, sistemas, aplicativos, jogos, inteligência artificial e até automação de tarefas do dia a dia. Também é muito usada na análise de dados, ajudando empresas a tomarem decisões com base em informações. Por isso, é considerada uma das linguagens mais completas e importantes do mercado.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Vantagens profissionais</h2>
+        <p>O uso de Python na vida profissional traz várias vantagens. Uma delas é a alta demanda no mercado de trabalho, já que muitas empresas procuram desenvolvedores que dominam essa linguagem. Além disso, Python é fácil de aprender, o que permite que iniciantes evoluam rapidamente. Outro ponto positivo é a grande quantidade de bibliotecas prontas, que facilitam o desenvolvimento e economizam tempo. Também possui uma comunidade muito ativa, o que ajuda na resolução de dúvidas e problemas.</p>
+    </div>
+
+    <div class="card2">
+        <h2 class="sub2">O que é POO?</h2>
+        <p>
+           A Programação Orientada a Objetos, conhecida como POO, é um modelo de programação que organiza o código em objetos. Esses objetos representam elementos do mundo real e possuem características e comportamentos. As características são chamadas de atributos, enquanto os comportamentos são chamados de métodos. Esse tipo de programação ajuda a deixar o código mais organizado e mais fácil de entender.
+        </p>
+    </div>
+
+    <div class="card2">
+        <h2 class="sub2">Vantagens da POO</h2>
+        <p>A POO traz diversas vantagens para o desenvolvimento de sistemas. Uma das principais é a reutilização de código, pois é possível reaproveitar partes já prontas em outros projetos. Além disso, ela melhora a organização do código, tornando-o mais limpo e estruturado. Também facilita a manutenção, já que erros podem ser corrigidos de forma mais simples. Por fim, permite que o sistema cresça de forma organizada, sendo ideal para projetos maiores.</p>
+    </div>
+
+    <div class="card2">
+        <h2 class="sub2">Como funciona a integração entre HTML e Python</h2>
+        <p>A integração entre HTML e Python acontece quando o usuário interage com o site. O HTML é responsável pela parte visual, ou seja, aquilo que aparece na tela. Já o Python fica no servidor, processando as informações enviadas pelo usuário. Quando uma ação é feita, como enviar um formulário, o Python recebe os dados, realiza o processamento e retorna uma resposta para o HTML. Dessa forma, o site se torna dinâmico, podendo exibir informações diferentes conforme a interação do usuário.</p>
+    </div>
+    
+
+</div>
+
+<footer>
+    Desenvolvido com Python + Flask
+</footer>
+
+</body>
+</html>
